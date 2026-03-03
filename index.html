@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)file:///C:/Users/andre/Downloads/index.html -->
+<!-- saved from url=(0049)file:///C:/Users/andre/Downloads/index%20(1).html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-  <link href="./Andreas Olofsson, M.Sc. _ Senior Clinical Operations Leader _ Boston, MA_files/css2" rel="stylesheet">
+  <link href="./index_files/css2" rel="stylesheet">
 
   <style>
     :root {
@@ -54,6 +54,18 @@
     .nav-links { display: flex; gap: 2rem; }
     .nav-links a { font-size: 0.77rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mid); transition: color 0.28s; }
     .nav-links a:hover { color: var(--teal); }
+
+    .hero-body { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; margin-bottom: 0; }
+    .hero-left { display: flex; flex-direction: column; }
+    .hero-highlights {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--r); padding: 1.4rem 1.5rem;
+      display: flex; flex-direction: column; gap: 0.85rem; margin-top: 7rem;
+    }
+    .hh-label { font-size: 0.63rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.2rem; }
+    .hh-item { font-size: 0.82rem; color: rgba(255,255,255,0.7); display: flex; align-items: flex-start; gap: 0.7rem; line-height: 1.5; }
+    .hh-dot { width: 5px; height: 5px; background: var(--teal); border-radius: 50%; flex-shrink: 0; margin-top: 0.45rem; }
+    @media (max-width: 680px) { .hero-body { grid-template-columns: 1fr; } .hero-highlights { margin-top: 0; } }
 
     /* HERO */
     .hero { background: var(--navy); color: var(--white); padding: 6.5rem 0 5rem; position: relative; overflow: hidden; }
@@ -174,11 +186,11 @@
   <div class="nav-inner">
     <span class="nav-logo">Andreas Olofsson</span>
     <ul class="nav-links">
-      <li><a href="file:///C:/Users/andre/Downloads/index.html#about">About</a></li>
-      <li><a href="file:///C:/Users/andre/Downloads/index.html#therapeutic">Expertise</a></li>
-      <li><a href="file:///C:/Users/andre/Downloads/index.html#experience">Experience</a></li>
-      <li><a href="file:///C:/Users/andre/Downloads/index.html#skills">Skills</a></li>
-      <li><a href="file:///C:/Users/andre/Downloads/index.html#contact">Contact</a></li>
+      <li><a href="file:///C:/Users/andre/Downloads/index%20(1).html#about">About</a></li>
+      <li><a href="file:///C:/Users/andre/Downloads/index%20(1).html#therapeutic">Expertise</a></li>
+      <li><a href="file:///C:/Users/andre/Downloads/index%20(1).html#experience">Experience</a></li>
+      <li><a href="file:///C:/Users/andre/Downloads/index%20(1).html#skills">Skills</a></li>
+      <li><a href="file:///C:/Users/andre/Downloads/index%20(1).html#contact">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -187,12 +199,23 @@
 <header class="hero">
   <div class="container hero-inner">
     <p class="hero-eyebrow fu">Clinical Operations &nbsp;·&nbsp; 20+ Years Global Experience</p>
-    <h1 class="fu d1">Andreas<br><em>Olofsson</em></h1>
-    <p class="hero-title fu d2">Senior Clinical Operations Leader, M.Sc.</p>
-    <p class="hero-location fu d2">📍 Acton, MA &nbsp;·&nbsp; Available globally</p>
-    <div class="hero-ctas fu d3">
-      <a href="file:///C:/Users/andre/Downloads/index.html#contact" class="btn-primary">Get in touch →</a>
-      <a href="https://www.linkedin.com/in/andreas-olofsson-47125324" target="_blank" rel="noopener" class="btn-ghost">LinkedIn ↗</a>
+    <div class="hero-body">
+      <div class="hero-left">
+        <h1 class="fu d1">Andreas<br><em>Olofsson</em></h1>
+        <p class="hero-title fu d2">Senior Clinical Operations Leader, M.Sc.</p>
+        <p class="hero-location fu d2">📍 Acton, MA &nbsp;·&nbsp; Available globally</p>
+        <div class="hero-ctas fu d3">
+          <a href="file:///C:/cdn-cgi/l/email-protection#a7c6c9c3d5c2c6d489c8cbc8c1d4d4c8c99091e7c0cac6cecb89c4c8ca" class="btn-primary">Get in touch →</a>
+          <a href="https://www.linkedin.com/in/andreas-olofsson-47125324" target="_blank" rel="noopener" class="btn-ghost">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-highlights fu d3">
+        <p class="hh-label">Career highlights</p>
+        <div class="hh-item"><span class="hh-dot"></span>Built a US Clinical Ops team from the ground up — &gt;90% retention</div>
+        <div class="hh-item"><span class="hh-dot"></span>Global site network of &gt;400 investigator sites</div>
+        <div class="hh-item"><span class="hh-dot"></span>Dedicated Start-Up function cutting timelines by &gt;30%</div>
+        <div class="hh-item"><span class="hh-dot"></span>Deep expertise in Phase III, rare disease &amp; complex modalities — gene therapy &amp; cell-based therapy</div>
+      </div>
     </div>
     <div class="hero-stats fu d4">
       <div>
@@ -208,8 +231,8 @@
         <div class="stat-label">Clinical sites<br>globally</div>
       </div>
       <div>
-        <div class="stat-num">6+</div>
-        <div class="stat-label">Phase II/III studies<br>on time &amp; in budget</div>
+        <div class="stat-num">3</div>
+        <div class="stat-label">Studies significantly<br>exceeding enrollment<br>in the last 3 years</div>
       </div>
     </div>
   </div>
@@ -268,17 +291,21 @@
 <section id="therapeutic">
   <div class="container">
     <p class="section-label">Areas of Expertise</p>
-    <h2 class="section-title">Therapeutic areas &amp; focus</h2>
-    <p class="ta-intro">Broad therapeutic coverage built through two decades of hands-on global trial execution — from rare and ultra-rare diseases to large Phase III CNS and immunology programs.</p>
+    <h2 class="section-title">Therapeutic areas &amp; modality focus</h2>
+    <p class="ta-intro">Broad coverage built through two decades of hands-on global trial execution — spanning traditional therapeutic areas as well as highly complex advanced modalities requiring specialist operational expertise.</p>
+    <p style="font-size:0.72rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);margin-bottom:0.75rem;margin-top:2rem;">Advanced Modalities</p>
+    <div class="ta-grid" style="margin-bottom:1.5rem;">
+      <div class="ta-card"><div class="ta-icon">🧬</div><div class="ta-name">Gene Therapy</div><div class="ta-detail">Huntington's disease · Complex regulatory &amp; safety · Long-term follow-up · Site engagement &amp; subject retention strategies</div></div>
+      <div class="ta-card"><div class="ta-icon">🧪</div><div class="ta-name">Cell-Based Therapy</div><div class="ta-detail">Advanced manufacturing &amp; CMC interfaces · Site engagement &amp; subject retention strategies · Phase II ophthalmology</div></div>
+    </div>
+    <p style="font-size:0.72rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);margin-bottom:0.75rem;">Therapeutic Areas</p>
     <div class="ta-grid">
-      <div class="ta-card"><div class="ta-icon">🧬</div><div class="ta-name">Gene Therapy</div><div class="ta-detail">Huntington's disease · Rare &amp; ultra-rare · Complex safety &amp; long-term follow-up</div></div>
-      <div class="ta-card"><div class="ta-icon">🧠</div><div class="ta-name">CNS / Neuroscience</div><div class="ta-detail">Schizophrenia · Phase III · US &amp; Eastern Europe multi-site</div></div>
+      <div class="ta-card"><div class="ta-icon">🔬</div><div class="ta-name">Rare Disease</div><div class="ta-detail">Patient advocacy engagement · Deep site engagement · Small patient population strategies · Regulatory complexity</div></div>
+      <div class="ta-card"><div class="ta-icon">🧠</div><div class="ta-name">CNS / Neuroscience</div><div class="ta-detail">Schizophrenia · Phase III · Rater training &amp; assessment consistency management · US &amp; Eastern Europe</div></div>
       <div class="ta-card"><div class="ta-icon">💉</div><div class="ta-name">Immunology</div><div class="ta-detail">Global Phase II/III · Enrollment exceeded · Multi-country execution</div></div>
       <div class="ta-card"><div class="ta-icon">🦴</div><div class="ta-name">Rheumatology &amp; OA</div><div class="ta-detail">Osteoarthritis · Rheumatology · Phase II/III global studies</div></div>
-      <div class="ta-card"><div class="ta-icon">👁️</div><div class="ta-name">Ophthalmology</div><div class="ta-detail">Cell-based therapy · Phase II · ~75 sites across US &amp; EU</div></div>
-      <div class="ta-card"><div class="ta-icon">❤️</div><div class="ta-name">Cardiovascular</div><div class="ta-detail">Phase I–III experience · Cross-functional global teams</div></div>
-      <div class="ta-card"><div class="ta-icon">🔬</div><div class="ta-name">Rare Disease</div><div class="ta-detail">Deep expertise · Regulatory complexity · Long-term follow-up protocols</div></div>
-      <div class="ta-card"><div class="ta-icon">🧪</div><div class="ta-name">Cell-Based Therapy</div><div class="ta-detail">Advanced modalities · Complex vendor interfaces · CMC alignment</div></div>
+      <div class="ta-card"><div class="ta-icon">👁️</div><div class="ta-name">Ophthalmology</div><div class="ta-detail">Phase II · ~75 sites across US &amp; EU</div></div>
+      <div class="ta-card"><div class="ta-icon">❤️</div><div class="ta-name">Cardiovascular</div><div class="ta-detail">Phase I–III · Cross-functional global teams</div></div>
     </div>
   </div>
 </section>
@@ -470,9 +497,9 @@
       <div>
         <p class="contact-intro">Whether you're building a clinical team, need an experienced hand for a complex program, or want a consulting partner to accelerate delivery — I'd love to connect.</p>
         <div class="contact-links">
-          <a href="mailto:andreas.olofsson76@gmail.com" class="c-link">
+          <a href="file:///C:/cdn-cgi/l/email-protection#e889868c9a8d899bc68784878e9b9b8786dfdea88f85898184c68b8785" class="c-link">
             <div class="c-icon">✉️</div>
-            <span>andreas.olofsson76@gmail.com</span>
+            <span><span class="__cf_email__" data-cfemail="1b7a757f697e7a68357477747d686874752c2d5b7c767a727735787476">[email&nbsp;protected]</span></span>
           </a>
           <a href="tel:+13479711789" class="c-link">
             <div class="c-icon">📞</div>
@@ -487,20 +514,8 @@
       <div class="cta-box">
         <h3>Available for</h3>
         <p>Open to full-time senior leadership and short-term engagements where I can make an immediate impact.</p>
-        <div class="ctype"><span class="ctype-dot"></span>Full-time VP / Senior Director, Clinical Operations</div>
+        <div class="ctype"><span class="ctype-dot"></span>Senior Director / Director / Associate Director, Clinical Operations</div>
         <div class="ctype"><span class="ctype-dot"></span>Short-term consulting &amp; program rescue</div>
         <div class="ctype"><span class="ctype-dot"></span>CRO / Sponsor advisory engagements</div>
         <div class="ctype"><span class="ctype-dot"></span>Inspection readiness &amp; startup acceleration</div>
-        <div class="ctype"><span class="ctype-dot"></span>AI-enabled clinical operations advisory</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  © 2026 Andreas Olofsson, M.Sc. &nbsp;·&nbsp; Senior Clinical Operations Leader &nbsp;·&nbsp; Acton, MA
-</footer>
-
-
-
-</body></html>
+        <div class="ctype"><span class="ctype-dot"></span></div></div></div></div></section></body></html>
